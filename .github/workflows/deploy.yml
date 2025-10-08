@@ -50,4 +50,4 @@ jobs:
           npm ci
           npm install astro
           npm install send server-destroy
-          PORT=2240 pm2 restart colle || PORT=2240 pm2 start entry.mjs --name colle
+          PORT=3001 pm2 restart colle || PORT=3001 pm2 start entry.mjs --name colle
